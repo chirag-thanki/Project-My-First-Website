@@ -1,0 +1,132 @@
+* {
+    font-family: "Poppins";
+
+}
+
+.navbar {
+    background-color: #daac00;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.links {
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.search,
+input[type="search"] {
+    display: flex;
+    /* border: 2px solid black; */
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+    background-color: #fcc302;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    border: none;
+    padding: 2px 5px;
+}
+
+#searchbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00bec9;
+    padding: 5px;
+}
+
+.s1-main {
+    background-color: #fcc302;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 80px;
+}
+
+.s1d1>div:first-child {
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.s1d1>div:nth-child(2) {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.s1d1>div>button {
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.s1d1>div>button+button {
+    margin-left: 30px;
+}
+
+.s1d1>div>button:hover {
+    background-color: #00bec9;
+}
+
+.s2-main {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 80px;
+}
+
+.s2d1>div:first-child {
+    font-size: 50px;
+    color: #313243;
+}
+
+.s2d1>div+div {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 400;
+}
+
+.s2d1>div>button {
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: #fcc302;
+    border: 3px solid #ffffff;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.s2d2 img {
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+}
