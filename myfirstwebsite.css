@@ -1,6 +1,8 @@
 * {
     font-family: "Poppins";
-
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
@@ -40,7 +42,7 @@ input[type="search"] {
     color: #ffffff;
     font-weight: 400;
     border: none;
-    padding: 2px 5px;
+    /* padding: 2px 5px; */
 }
 
 #searchbutton {
@@ -48,10 +50,11 @@ input[type="search"] {
     justify-content: center;
     align-items: center;
     background-color: #00bec9;
-    padding: 5px;
+    padding: 8px;
 }
 
 .s1-main {
+    width: auto;
     background-color: #fcc302;
     display: flex;
     justify-content: space-around;
@@ -93,7 +96,15 @@ input[type="search"] {
     background-color: #00bec9;
 }
 
+.s1d1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+}
+
 .s2-main {
+    width: auto;
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;
@@ -126,7 +137,214 @@ input[type="search"] {
 }
 
 .s2d2 img {
-    width: 300px;
-    height: 350px;
-    border: 2px solid black;
+    width: 506px;
+    height: 480px;
+    background-color: #daac00;
 }
+
+.s2d2 {
+    position: relative;
+    z-index: 3;
+}
+
+.s2d2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* opacity: 0.569; */
+    width: 506px;
+    height: 480px;
+    background-color: rgba(218, 172, 0, 0.5686274509803921);
+}
+
+.s2d3-circle {
+    width: 84px;
+    height: 84px;
+    border-radius: 42px;
+    background-color: #ffffff;
+    /* border: 2px solid; */
+    z-index: 1;
+    position: absolute;
+    top: 199px;
+    left: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2d3-triangle {
+    width: 30px;
+    height: 30px;
+    background-color: #daac00;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.s2d2-yellow-offset-box {
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    position: absolute;
+    left: -25px;
+    bottom: 5px;
+    z-index: -1;
+}
+
+.s2d1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+}
+
+.s3-main {
+    background-color: #fcc302;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.s3-text h2 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.s3-text p {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.s3-three-card {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+.s3-three-card>div h3 {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.s3-three-card>div p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.s3-three-card>div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+}
+
+.s4-main {
+    display: flex;
+}
+
+/* Below code */
+/*
+.s2-main {
+    width: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 80px;
+}
+
+.s2d1>div:first-child {
+    font-size: 50px;
+    color: #313243;
+}
+
+.s2d1>div+div {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 400;
+}
+
+.s2d1>div>button {
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: #fcc302;
+    border: 3px solid #ffffff;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.s2d2 img {
+    width: 506px;
+    height: 480px;
+    background-color: #daac00;
+}
+
+.s2d2 {
+    position: relative;
+    z-index: 3;
+}
+
+.s2d2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 506px;
+    height: 480px;
+    background-color: rgba(218, 172, 0, 0.5686274509803921);
+}
+
+.s2d3-circle {
+    width: 84px;
+    height: 84px;
+    border-radius: 42px;
+    background-color: #ffffff;
+    z-index: 1;
+    position: absolute;
+    top: 199px;
+    left: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2d3-triangle {
+    width: 30px;
+    height: 30px;
+    background-color: #daac00;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.s2d2-yellow-offset-box {
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    position: absolute;
+    left: -25px;
+    bottom: 5px;
+    z-index: -1;
+}
+
+.s2d1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+} */
+/* edit upto here */
