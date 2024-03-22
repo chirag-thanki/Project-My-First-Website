@@ -138,6 +138,10 @@ input[type="search"] {
     font-weight: 600;
 }
 
+.s2d1>div>button:hover {
+    background-color: #00bec9;
+}
+
 .s2d2 img {
     width: 506px;
     height: 480px;
@@ -314,3 +318,108 @@ input[type="search"] {
 }
 
 /* Section-5 CSS */
+.s5-main {
+    background-color: #fcc302;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* Q. Not Working Why? 
+A. Worked because defined parent class also
+*/
+.s3-three-card .s5-main-dog-price {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+button[name="s5-main-dog-price-button"] {
+    width: 199px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #00bec9;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+}
+
+.s6-main {
+    background-color: #ffffff;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.s6-text h2 {
+    font-size: 75px;
+    color: #313243;
+    font-weight: 700;
+    text-align: center;
+}
+
+.s6-text p {
+    font-size: 33px;
+    color: #313243;
+    font-weight: 400;
+    text-align: center;
+}
+
+.s6-card {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.s6-card .social-handles img {
+    width: 50px;
+    height: 50px;
+    background-color: #daac00;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 5px;
+}
+
+.s6-card .social-handles img:hover {
+    /* background-color: #00bec9; */
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.s6-card>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Note:->
+Media Queries always written at the end of CSS */
+
+@media only screen and (max-width: 768px) {
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+    }
+}
