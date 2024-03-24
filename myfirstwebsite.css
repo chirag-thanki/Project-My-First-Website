@@ -1,564 +1,579 @@
 * {
-    font-family: "Poppins";
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-    background-color: #daac00;
-    display: flex;
-    justify-content: space-around;
-    gap: 60px;
-    align-items: center;
-    padding: 20px 80px;
+  background-color: #daac00;
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+  align-items: center;
+  padding: 20px 80px;
 }
 
 .links {
-    /* border: 2px solid; */
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    align-items: center;
-    list-style-type: none;
-    text-decoration: none;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 a {
-    text-decoration: none;
-    font-size: 29px;
-    color: #ffffff;
-    font-weight: 500;
+  text-decoration: none;
+  font-size: 29px;
+  color: #ffffff;
+  font-weight: 500;
 }
 
 .search,
 input[type="search"] {
-    display: flex;
-    /* border: 2px solid black; */
-    filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
-    background-color: #fcc302;
-    font-size: 21px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    font-weight: 400;
-    border: none;
-    padding-left: 8px;
+  display: flex;
+  /* border: 2px solid black; */
+  filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+  background-color: #fcc302;
+  font-size: 21px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 400;
+  border: none;
+  padding-left: 8px;
 }
 
 #searchbutton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #00bec9;
-    padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00bec9;
+  padding: 8px;
 }
 
 /* Section-1 CSS*/
 .s1-main {
-    width: auto;
-    background-color: #fcc302;
-    display: flex;
-    justify-content: space-around;
-    gap: 100px;
-    padding: 80px;
+  width: auto;
+  background-color: #fcc302;
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  padding: 80px;
 }
 
-.s1d1>div:first-child {
-    font-size: 67px;
-    letter-spacing: 1px;
-    color: #ffffff;
-    font-weight: 600;
+.s1d1 > div:first-child {
+  font-size: 67px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 600;
 }
 
-.s1d1>div:nth-child(2) {
-    font-size: 29px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    font-weight: 400;
+.s1d1 > div:nth-child(2) {
+  font-size: 29px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 400;
 }
 
-.s1d1>div>button {
-    width: 182px;
-    height: 69px;
-    border-radius: 7px;
-    background-color: transparent;
-    border: 3px solid #ffffff;
-    font-size: 21px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    font-weight: 600;
+.s1d1 > div > button {
+  width: 182px;
+  height: 69px;
+  border-radius: 7px;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  font-size: 21px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 600;
 }
 
-.s1d1>div>button+button {
-    margin-left: 30px;
+.s1d1 > div > button + button {
+  margin-left: 30px;
 }
 
-.s1d1>div>button:hover {
-    background-color: #00bec9;
+.s1d1 > div > button:hover {
+  background-color: #00bec9;
 }
 
 .s1d1 {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px;
 }
 
 /* Section-2 CSS*/
 .s2-main {
-    width: auto;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-around;
-    gap: 100px;
-    padding: 80px;
+  width: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  padding: 80px;
 }
 
-.s2d1>div:first-child {
-    font-size: 50px;
-    color: #313243;
+.s2d1 > div:first-child {
+  font-size: 50px;
+  color: #313243;
 }
 
-.s2d1>div+div {
-    font-size: 29px;
-    letter-spacing: 0px;
-    color: #313243;
-    font-weight: 400;
+.s2d1 > div + div {
+  font-size: 29px;
+  letter-spacing: 0px;
+  color: #313243;
+  font-weight: 400;
 }
 
-.s2d1>div>button {
-    width: 182px;
-    height: 69px;
-    border-radius: 7px;
-    background-color: #fcc302;
-    border: 3px solid #ffffff;
-    font-size: 21px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    font-weight: 600;
+.s2d1 > div > button {
+  width: 182px;
+  height: 69px;
+  border-radius: 7px;
+  background-color: #fcc302;
+  border: 3px solid #ffffff;
+  font-size: 21px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 600;
 }
 
-.s2d1>div>button:hover {
-    background-color: #00bec9;
+.s2d1 > div > button:hover {
+  background-color: #00bec9;
 }
 
 .s2d2 img {
-    width: 506px;
-    height: 480px;
-    background-color: #daac00;
+  width: 506px;
+  height: 480px;
+  background-color: #daac00;
 }
 
 .s2d2 {
-    position: relative;
-    z-index: 3;
+  position: relative;
+  z-index: 3;
 }
 
 .s2d2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* width: 100%; */
-    /* height: 100%; */
-    /* opacity: 0.569; */
-    width: 506px;
-    height: 480px;
-    background-color: rgba(218, 172, 0, 0.5686274509803921);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* opacity: 0.569; */
+  width: 506px;
+  height: 480px;
+  background-color: rgba(218, 172, 0, 0.5686274509803921);
 }
 
 .s2d3-circle {
-    width: 84px;
-    height: 84px;
-    border-radius: 42px;
-    background-color: #ffffff;
-    /* border: 2px solid; */
-    z-index: 1;
-    position: absolute;
-    top: 199px;
-    left: 215px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 42px;
+  background-color: #ffffff;
+  /* border: 2px solid; */
+  z-index: 1;
+  position: absolute;
+  top: 199px;
+  left: 215px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .s2d3-triangle {
-    width: 30px;
-    height: 30px;
-    background-color: #daac00;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  width: 30px;
+  height: 30px;
+  background-color: #daac00;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
 }
 
 .s2d2-yellow-offset-box {
-    width: 252px;
-    height: 206px;
-    background-color: #fcc302;
-    position: absolute;
-    left: -25px;
-    bottom: 5px;
-    z-index: -1;
+  width: 252px;
+  height: 206px;
+  background-color: #fcc302;
+  position: absolute;
+  left: -25px;
+  bottom: 5px;
+  z-index: -1;
 }
 
 .s2d1 {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px;
 }
 
 /* Section-3 CSS*/
 .s3-main {
-    background-color: #fcc302;
-    padding: 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
+  background-color: #fcc302;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 .s3-text h2 {
-    font-size: 75px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
+  font-size: 75px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
 }
 
 .s3-text p {
-    font-size: 33px;
-    color: #ffffff;
-    font-weight: 400;
-    text-align: center;
+  font-size: 33px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
 }
 
 .s3-three-card {
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
-
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
 }
 
-.s3-three-card>div h3 {
-    font-size: 38px;
-    color: #ffffff;
-    font-weight: 600;
-    text-align: center;
+.s3-three-card > div h3 {
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
 }
 
-.s3-three-card>div p {
-    font-size: 25px;
-    color: #ffffff;
-    font-weight: 400;
-    text-align: center;
+.s3-three-card > div p {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
 }
 
-.s3-three-card>div {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    gap: 30px;
+.s3-three-card > div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 30px;
 }
 
 /* Section-4 CSS*/
 .s4-main {
-    display: flex;
+  display: flex;
 }
 
 .s4-main {
-    width: auto;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-around;
-    gap: 100px;
-    padding: 80px;
+  width: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  padding: 80px;
 }
 
 .s4d2 {
-    position: relative;
-    z-index: 3;
+  position: relative;
+  z-index: 3;
 }
 
 .s4d2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 506px;
-    height: 480px;
-    background-color: rgba(218, 172, 0, 0.5686274509803921);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 506px;
+  height: 480px;
+  background-color: rgba(218, 172, 0, 0.5686274509803921);
 }
 
 .s4d3-circle {
-    width: 84px;
-    height: 84px;
-    border-radius: 42px;
-    background-color: #ffffff;
-    z-index: 1;
-    position: absolute;
-    top: 199px;
-    left: 215px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 42px;
+  background-color: #ffffff;
+  z-index: 1;
+  position: absolute;
+  top: 199px;
+  left: 215px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .s4d3-triangle {
-    width: 30px;
-    height: 30px;
-    background-color: #daac00;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  width: 30px;
+  height: 30px;
+  background-color: #daac00;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
 }
 
 .s4d2-yellow-offset-box {
-    width: 252px;
-    height: 206px;
-    background-color: #fcc302;
-    position: absolute;
-    right: -25px;
-    bottom: 5px;
-    z-index: -1;
+  width: 252px;
+  height: 206px;
+  background-color: #fcc302;
+  position: absolute;
+  right: -25px;
+  bottom: 5px;
+  z-index: -1;
 }
 
 /* Section-5 CSS */
 .s5-main {
-    background-color: #fcc302;
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
+  background-color: #fcc302;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 /* Q. Not Working Why? 
 A. Worked because defined parent class also
 */
 .s3-three-card .s5-main-dog-price {
-    font-size: 42px;
-    color: #ffffff;
-    font-weight: 600;
-    text-align: center;
+  font-size: 42px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
 }
 
 button[name="s5-main-dog-price-button"] {
-    width: 199px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #00bec9;
-    font-size: 25px;
-    color: #ffffff;
-    font-weight: 600;
-    text-align: center;
-    border: none;
+  width: 199px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #00bec9;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  border: none;
 }
 
 /* Section-6 CSS */
 .s6-main {
-    background-color: #ffffff;
-    padding: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    gap: 100px;
+  background-color: #ffffff;
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
 }
 
 .s6-text h2 {
-    font-size: 75px;
-    color: #313243;
-    font-weight: 700;
-    text-align: center;
+  font-size: 75px;
+  color: #313243;
+  font-weight: 700;
+  text-align: center;
 }
 
 .s6-text p {
-    font-size: 33px;
-    color: #313243;
-    font-weight: 400;
-    text-align: center;
+  font-size: 33px;
+  color: #313243;
+  font-weight: 400;
+  text-align: center;
 }
 
 .s6-card {
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
 }
 
 .s6-card .social-handles img {
-    width: 50px;
-    height: 50px;
-    background-color: #daac00;
-    border-radius: 50%;
-    padding: 8px;
-    margin: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #daac00;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 5px;
 }
 
 .s6-card .social-handles img:hover {
-    /* background-color: #00bec9; */
-    width: 60px;
-    height: 60px;
-    padding: 10px;
+  /* background-color: #00bec9; */
+  width: 60px;
+  height: 60px;
+  padding: 10px;
 }
 
-.s6-card>div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
+.s6-card > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Section-7 CSS */
 .s7-main {
-    background: url(./Assets/Doctor_Dog.svg);
-    background-size: cover;
-    position: relative;
+  background: url(./Assets/Doctor_Dog.svg);
+  background-size: cover;
+  position: relative;
 }
 
 .s7-main::before {
-    content: '';
-    background: rgba(252, 195, 2, 0.8392156862745098);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  content: "";
+  background: rgba(252, 195, 2, 0.8392156862745098);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-
-.s7-main>.s7-text {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 80px 0px;
+.s7-main > .s7-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 0px;
 }
 
 .s7-text-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 100px;
-    gap: 20px;
-    align-items: center;
-    color: #ffffff;
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 100px;
+  gap: 20px;
+  align-items: center;
+  color: #ffffff;
+  z-index: 1;
 }
 
 .s7-text-card h3 {
-    font-size: 42px;
-    font-weight: 500;
-
+  font-size: 42px;
+  font-weight: 500;
 }
 
 .s7-text-card p {
-    font-size: 38px;
-    font-weight: 700;
+  font-size: 38px;
+  font-weight: 700;
 }
 
 /* Section-8 CSS */
 .s8-main {
-    background-color: #ffffff;
-    /* padding: 80px;
+  background-color: #ffffff;
+  /* padding: 80px;
     margin: 20px; */
 }
 
 .s8-main .s8-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
-    padding: 50px 250px;
-    text-align: center;
-    /* gap: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  padding: 50px 250px;
+  text-align: center;
+  /* gap: 50px; */
 }
 
 .s8-main .s8-text h2 {
-    font-size: 75px;
-    color: #313243;
-    font-weight: 700;
+  font-size: 75px;
+  color: #313243;
+  font-weight: 700;
 }
 
 .s8-main .s8-text p {
-    font-size: 33px;
-    color: #313243;
-    font-weight: 400;
+  font-size: 33px;
+  color: #313243;
+  font-weight: 400;
 }
 
 .s8-main .s8-cards {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 50px;
-    gap: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 50px;
+  gap: 20px;
 }
 
 .s8-main .s8-cards .s8-p1 {
-    font-size: 25px;
-    color: #313243;
-    font-weight: 600;
+  font-size: 25px;
+  color: #313243;
+  font-weight: 600;
 }
 
 .s8-main .s8-cards .s8-p2 {
-    font-size: 17px;
-    color: #00bec9;
-    font-weight: 400;
+  font-size: 17px;
+  color: #00bec9;
+  font-weight: 400;
 }
 
 .s8-main .s8-cards .s8-p3 {
-    font-size: 17px;
-    color: #313243;
-    font-weight: 400;
+  font-size: 17px;
+  color: #313243;
+  font-weight: 400;
 }
 
 .s8-main .s8-cards a {
-    font-size: 21px;
-    color: #00bec9;
-    font-weight: 500;
+  font-size: 21px;
+  color: #00bec9;
+  font-weight: 500;
 }
 
 .s8-main .s8-cards a:hover {
-    background-color: #00bec9;
-    color: aliceblue;
-    border-radius: 20px;
-    padding: 10px;
+  background-color: #00bec9;
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .s8-main .s8-cards div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    /* justify-content: center; */
-    padding: 20px;
-    gap: 10px;
-    background-color: #f3f3f3;
-    border: 2px solid #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  padding: 20px;
+  gap: 10px;
+  background-color: #f3f3f3;
+  border: 2px solid #d6d6d6;
 }
 
 .s8-main .s8-cards div img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
+/* Footer CSS */
 .footer {
-    width: 100%;
-    height: 500px;
-    border: 2px solid;
+  width: 100%;
+  height: 500px;
+  border: 2px solid;
+  background-color: #343434;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer li,
+.footer-title p {
+  list-style-type: none;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.footer > div h3 {
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 /* Note:->
 Media Queries always written at the end of CSS */
 
 @media only screen and (max-width: 768px) {
-    div {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: space-around;
-        justify-content: center;
-    }
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+  }
 }
 
-@media only screen and (max-width:576px) {
-    div {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: space-around;
-        justify-content: center;
-    }
+@media only screen and (max-width: 576px) {
+  div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+  }
 }
