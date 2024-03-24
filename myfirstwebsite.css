@@ -42,7 +42,7 @@ input[type="search"] {
     color: #ffffff;
     font-weight: 400;
     border: none;
-    /* padding: 2px 5px; */
+    padding-left: 8px;
 }
 
 #searchbutton {
@@ -348,6 +348,7 @@ button[name="s5-main-dog-price-button"] {
     border: none;
 }
 
+/* Section-6 CSS */
 .s6-main {
     background-color: #ffffff;
     padding: 100px;
@@ -400,6 +401,144 @@ button[name="s5-main-dog-price-button"] {
     justify-content: space-around;
     align-items: center;
     gap: 10px;
+}
+
+/* Section-7 CSS */
+.s7-main {
+    background: url(./Assets/Doctor_Dog.svg);
+    background-size: cover;
+    position: relative;
+}
+
+.s7-main::before {
+    content: '';
+    background: rgba(252, 195, 2, 0.8392156862745098);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.s7-main>.s7-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.s7-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 100px;
+    gap: 20px;
+    align-items: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.s7-text-card h3 {
+    font-size: 42px;
+    font-weight: 500;
+
+}
+
+.s7-text-card p {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+/* Section-8 CSS */
+.s8-main {
+    background-color: #ffffff;
+    /* padding: 80px;
+    margin: 20px; */
+}
+
+.s8-main .s8-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 50px 250px;
+    text-align: center;
+    /* gap: 50px; */
+}
+
+.s8-main .s8-text h2 {
+    font-size: 75px;
+    color: #313243;
+    font-weight: 700;
+}
+
+.s8-main .s8-text p {
+    font-size: 33px;
+    color: #313243;
+    font-weight: 400;
+}
+
+.s8-main .s8-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+    gap: 20px;
+}
+
+.s8-main .s8-cards .s8-p1 {
+    font-size: 25px;
+    color: #313243;
+    font-weight: 600;
+}
+
+.s8-main .s8-cards .s8-p2 {
+    font-size: 17px;
+    color: #00bec9;
+    font-weight: 400;
+}
+
+.s8-main .s8-cards .s8-p3 {
+    font-size: 17px;
+    color: #313243;
+    font-weight: 400;
+}
+
+.s8-main .s8-cards a {
+    font-size: 21px;
+    color: #00bec9;
+    font-weight: 500;
+}
+
+.s8-main .s8-cards a:hover {
+    background-color: #00bec9;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.s8-main .s8-cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
+    padding: 20px;
+    gap: 10px;
+    background-color: #f3f3f3;
+    border: 2px solid #d6d6d6;
+}
+
+.s8-main .s8-cards div img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 500px;
+    border: 2px solid;
 }
 
 /* Note:->
