@@ -346,6 +346,10 @@ button[name="s5-main-dog-price-button"] {
   text-align: center;
   border: none;
 }
+button[name="s5-main-dog-price-button"]:hover {
+  background-color: #ffffff;
+  color: #00bec9;
+}
 
 /* Section-6 CSS */
 .s6-main {
@@ -450,8 +454,7 @@ button[name="s5-main-dog-price-button"] {
 /* Section-8 CSS */
 .s8-main {
   background-color: #ffffff;
-  /* padding: 80px;
-    margin: 20px; */
+  padding: 120px 0px;
 }
 
 .s8-main .s8-text {
@@ -534,13 +537,12 @@ button[name="s5-main-dog-price-button"] {
 
 /* Footer CSS */
 .footer {
-  width: 100%;
-  height: 500px;
-  border: 2px solid;
   background-color: #343434;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
+  padding: 100px 0px;
+  position: relative;
 }
 .footer li,
 .footer-title p {
@@ -554,6 +556,54 @@ button[name="s5-main-dog-price-button"] {
   font-size: 38px;
   color: #ffffff;
   font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer > .footer-about,
+.footer-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* padding: 50px; */
+  /* border: 2px solid aliceblue; */
+}
+.footer .footer-searchbox {
+  width: 530px;
+  height: 90px;
+  background-color: #daac00;
+  position: relative;
+}
+
+.footer .footer-msg-logo {
+  /* padding: 80px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 144px;
+  height: 90px;
+  background-color: #00bec9;
+  position: absolute;
+  right: 0;
+}
+
+.footer .footer-title {
+  /* border: 2px solid aliceblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+  text-align: end;
+}
+.footer .footer-logo img {
+  margin: 10px;
+}
+.footer .copyright {
+  background-color: #343434;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* Note:->
@@ -563,8 +613,8 @@ Media Queries always written at the end of CSS */
   div {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
     justify-content: center;
+    align-items: center;
   }
 }
 
@@ -573,7 +623,7 @@ Media Queries always written at the end of CSS */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-around;
     justify-content: center;
+    align-items: center;
   }
 }
