@@ -31,6 +31,11 @@ a {
   font-weight: 500;
 }
 
+a:hover {
+  font-size: 32px;
+  font-weight: 900;
+}
+
 .search,
 input[type="search"] {
   display: flex;
